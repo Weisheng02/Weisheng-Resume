@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Wei Sheng · Personal portfolio: resume, skills, projects, contact" />
+    <meta name="theme-color" content="#8b5cf6" />
+    <meta property="og:title" content="Wei Sheng · Portfolio" />
+    <meta property="og:description" content="Full‑stack engineer portfolio: resume, skills, projects and contact." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/profile.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wei Sheng · Portfolio" />
+    <meta name="twitter:description" content="Full‑stack engineer portfolio: resume, skills, projects and contact." />
+    <meta name="twitter:image" content="assets/img/profile.svg" />
+    <title>Wei Sheng · Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="manifest" href="assets/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Wei Sheng",
+      "jobTitle": "Full-stack Engineer",
+      "url": "./",
+      "email": "mailto:hello@example.com",
+      "sameAs": [
+        "https://github.com/yourname",
+        "https://www.linkedin.com/in/yourname"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand" aria-label="Go to home">
+          <img class="brand-logo" src="assets/img/favicon.svg" alt="WS Logo" />
+          <span class="brand-title">Wei Sheng</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#home" data-section="home">Home</a></li>
+            <li><a class="nav-link" href="#about" data-section="about">About</a></li>
+            <li><a class="nav-link" href="#resume" data-section="resume">Resume</a></li>
+            <li><a class="nav-link" href="#projects" data-section="projects">Projects</a></li>
+            <li><a class="nav-link" href="#skills" data-section="skills">Skills</a></li>
+            <li><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" aria-label="Toggle theme"><span>🌓</span></button>
+      </div>
+    </header>
+
+    <main id="app" class="site-main">
+      <!-- HOME -->
+      <section id="home" class="section section--active" aria-labelledby="home-title">
+        <div class="hero">
+          <div class="hero-bg" aria-hidden="true">
+            <div class="shape shape--one" data-parallax data-speed="0.2"></div>
+            <div class="shape shape--two" data-parallax data-speed="0.35"></div>
+            <div class="shape shape--three" data-parallax data-speed="0.15"></div>
+          </div>
+          <div class="container hero-inner">
+            <div class="hero-content reveal-from-bottom">
+              <h1 id="home-title" class="hero-title">Hi, I’m <span class="accent">Wei Sheng</span></h1>
+              <p class="hero-subtitle">Full‑stack Engineer · Solution Builder · UX Advocate</p>
+              <div class="hero-cta">
+                <a class="btn btn--primary" href="#projects" data-section="projects">View Projects</a>
+                <a class="btn btn--ghost" href="#resume" data-section="resume">Download Resume</a>
+              </div>
+            </div>
+            <div class="hero-visual reveal-from-bottom" aria-hidden="true">
+              <img class="profile" src="assets/img/profile.svg" alt="Profile placeholder illustration" loading="lazy" />
+            </div>
+          </div>
+          <a class="scroll-down" href="#about" data-section="about" aria-label="Scroll to About">⟱</a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container grid two-col-gap-xl reveal">
+          <div>
+            <h2 id="about-title" class="section-title">About</h2>
+            <p class="lead">I build user‑centric products end‑to‑end, from idea to production, with a strong focus on performance, maintainability, and usability.</p>
+            <ul class="bullets">
+              <li>Multi‑platform: Web / Mobile / Desktop</li>
+              <li>Full‑stack: Frontend frameworks, backend services, cloud‑native</li>
+              <li>Engineering: Quality systems, automation, observability</li>
+            </ul>
+          </div>
+          <div class="stats">
+            <div class="stat-card reveal">
+              <div class="stat-number">5+ yrs</div>
+              <div class="stat-label">Experience</div>
+            </div>
+            <div class="stat-card reveal delay-1">
+              <div class="stat-number">20+ projects</div>
+              <div class="stat-label">Delivered</div>
+            </div>
+            <div class="stat-card reveal delay-2">
+              <div class="stat-number">10x</div>
+              <div class="stat-label">Perf & Efficiency Gains</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME -->
+      <section id="resume" class="section" aria-labelledby="resume-title">
+        <div class="container reveal">
+          <h2 id="resume-title" class="section-title">Resume</h2>
+          <p class="muted">Place your PDF at <code>assets/resume/Weisheng-Resume.pdf</code>. A preview will appear below automatically.</p>
+          <div class="resume-actions">
+            <a class="btn btn--primary" id="resume-download" href="assets/resume/Weisheng-Resume.pdf" download>Download PDF</a>
+            <a class="btn btn--ghost" href="#contact" data-section="contact">Contact Me</a>
+          </div>
+          <div class="resume-viewer" id="resume-viewer" role="region" aria-label="Resume preview">
+            <div class="resume-fallback">
+              <p>No PDF found yet. Put your resume at <code>assets/resume/Weisheng-Resume.pdf</code>.</p>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Senior Frontend Engineer · Internet Company</h3>
+                <span class="timeline-meta">2021 - Present · Beijing</span>
+                <p>Led frontend architecture and performance initiatives; drove componentization and observability.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Full‑stack Engineer · Startup Team</h3>
+                <span class="timeline-meta">2019 - 2021 · Remote</span>
+                <p>Built MVP end‑to‑end across frontend, backend, and cloud deployment to validate business quickly.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Bachelor · Computer Science</h3>
+                <span class="timeline-meta">2015 - 2019 · University</span>
+                <p>Key courses: Data Structures, OS, Networks, Software Engineering.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title" class="section-title">Projects</h2>
+          <div class="project-filters">
+            <button class="chip chip--active" data-filter="all">All</button>
+            <button class="chip" data-filter="web">Web</button>
+            <button class="chip" data-filter="frontend">Frontend</button>
+            <button class="chip" data-filter="backend">Backend</button>
+            <button class="chip" data-filter="ml">AI/ML</button>
+          </div>
+          <div id="project-grid" class="grid three-col-gap-lg"></div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="container reveal">
+          <h2 id="skills-title" class="section-title">Skills Matrix</h2>
+          <div class="grid two-col-gap-xl">
+            <div>
+              <h3 class="subheading">Tech Stack</h3>
+              <div class="skill-list">
+                <div class="skill-item">
+                  <span>TypeScript</span>
+                  <div class="meter" data-level="90"><span></span></div>
+                </div>
+                <div class="skill-item">
+                  <span>React / Vue</span>
+                  <div class="meter" data-level="88"><span></span></div>
+                </div>
+                <div class="skill-item">
+                  <span>Node.js / Express</span>
+                  <div class="meter" data-level="82"><span></span></div>
+                </div>
+                <div class="skill-item">
+                  <span>Go / Python</span>
+                  <div class="meter" data-level="70"><span></span></div>
+                </div>
+                <div class="skill-item">
+                  <span>PostgreSQL / Redis</span>
+                  <div class="meter" data-level="76"><span></span></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="subheading">Engineering & Quality</h3>
+              <ul class="bullets">
+                <li>Performance: Core Web Vitals, bundle analysis, caching and parallelization</li>
+                <li>Quality: Testing pyramid, E2E/CI, code standards and static checks</li>
+                <li>Observability: Logs/metrics/traces, alerting and progressive rollout</li>
+              </ul>
+              <div class="tool-tags">
+                <span class="tag">Git</span>
+                <span class="tag">Docker</span>
+                <span class="tag">K8s</span>
+                <span class="tag">Vite</span>
+                <span class="tag">Webpack</span>
+                <span class="tag">Jest</span>
+                <span class="tag">Playwright</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="container reveal">
+          <h2 id="contact-title" class="section-title">Contact</h2>
+          <div class="grid two-col-gap-xl">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="your@email.com" required />
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or how we can collaborate"></textarea>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn--primary">Send Email</button>
+                <a class="btn btn--ghost" href="mailto:hello@example.com">Email directly</a>
+              </div>
+              <p class="form-hint">This form opens your local email client. Make sure it’s configured.</p>
+            </form>
+
+            <div class="contact-aside">
+              <div class="contact-card">
+                <div class="contact-row">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-3.31 0-10 1.66-10 5v3h20v-3c0-3.34-6.69-5-10-5z"/></svg>
+                  <div>
+                    <div class="muted">Name</div>
+                    <div>Wei Sheng</div>
+                  </div>
+                </div>
+                <div class="contact-row">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path d="M21 8V7l-3 2-2-1-3 2-2-1-3 2-2-1-3 2v9h20V8zM21 3H3v3l9 6 9-6V3z"/></svg>
+                  <div>
+                    <div class="muted">Email</div>
+                    <a href="mailto:hello@example.com">hello@example.com</a>
+                  </div>
+                </div>
+                <div class="contact-row">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path d="M21 10h-3.17l-1.84-3.68A2 2 0 0014.17 5H9.83a2 2 0 00-1.82 1.32L6.17 10H3a1 1 0 000 2h1l1.8 6.3A2 2 0 007.73 20h8.54a2 2 0 001.93-1.7L20 12h1a1 1 0 000-2zM9 7h6l1.5 3H7.5L9 7zm6.27 11H8.73l-1.43-5h9.4l-1.43 5z"/></svg>
+                  <div>
+                    <div class="muted">Social</div>
+                    <div class="socials">
+                      <a class="social" href="https://github.com/yourname" target="_blank" rel="noreferrer noopener" aria-label="GitHub">GitHub</a>
+                      <a class="social" href="https://www.linkedin.com/in/yourname" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Wei Sheng. All rights reserved.</span>
+        <a class="back-to-top" href="#home" data-section="home" aria-label="Back to top">Back to Top ↑</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+  </html>
+
